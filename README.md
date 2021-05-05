@@ -27,3 +27,40 @@ URLs
 Github: https://github.com/AlbertoCarrillo79/secretsanta
 
 Webpage: secretsanta.servehttp.com
+
+API INSTRUCTIONS
+
+Structure:
+
+{
+  "id": "1",
+  "firstName": "Luke",
+  "lastName": "Skywalker",
+  "eMail": "luke@theforce.net"
+}
+
+
+Get all Secret Santa participants
+http://secretsanta.servehttp.com/api/secretsanta/
+
+Find participant by id
+http://secretsanta.servehttp.com/api/secretsanta/find/1
+
+Update participant data
+http://secretsanta.servehttp.com/api/secretsanta/update/1
+{
+  "firstName": "Luke",
+  "lastName": "Skywalker",
+  "eMail": "luke@theforce.net"
+}
+
+Add Participant
+http://secretsanta.servehttp.com/api/secretsanta/add
+{
+  "firstName": "Luke",
+  "lastName": "Skywalker",
+  "eMail": "luke@theforce.net"
+}
+
+Delete participant
+http://secretsanta.servehttp.com/api/secretsanta/delete/1
