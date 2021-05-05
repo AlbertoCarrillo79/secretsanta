@@ -71,3 +71,5 @@ http://secretsanta.servehttp.com/api/secretsanta/add
 Delete participant
 
 http://secretsanta.servehttp.com/api/secretsanta/delete/1
+
+I've added a csv file to load the list as well
