@@ -41,13 +41,17 @@ Structure:
 
 
 Get all Secret Santa participants
+
 http://secretsanta.servehttp.com/api/secretsanta/
 
 Find participant by id
+
 http://secretsanta.servehttp.com/api/secretsanta/find/1
 
 Update participant data
+
 http://secretsanta.servehttp.com/api/secretsanta/update/1
+
 {
   "firstName": "Luke",
   "lastName": "Skywalker",
@@ -55,7 +59,9 @@ http://secretsanta.servehttp.com/api/secretsanta/update/1
 }
 
 Add Participant
+
 http://secretsanta.servehttp.com/api/secretsanta/add
+
 {
   "firstName": "Luke",
   "lastName": "Skywalker",
@@ -63,4 +69,5 @@ http://secretsanta.servehttp.com/api/secretsanta/add
 }
 
 Delete participant
+
 http://secretsanta.servehttp.com/api/secretsanta/delete/1
